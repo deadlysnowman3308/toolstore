@@ -92,7 +92,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
         echo "[9] ✔ TheFatRat                        [10]✔ Evil-Droid"
         echo "[11]✔ venom                            [12]✔ zirikatu" 
         echo "[13]✔ Cl0neMast3r                      [14]✔ fluxion" 
-        echo "[q] ✔ Quit"
+        echo "[15]✔ New_Vega                          [q] ✔ Quit"
         echo
         read -p "Select>: " option
         echo
@@ -225,7 +225,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                 chmod +x routersploit.sh
                 cd ..
                 echo ""
-                echo -e $red "########## Finish routersploit ############"
+                echo -e $red "##########😃 Finish routersploit 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
@@ -246,7 +246,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                    esac
                 done
                 echo ""
-                echo -e $red "########## Finish ,Download AND Install TheFatRat ############"
+                echo -e $red "##########😃 Finish ,Download AND Install TheFatRat 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
@@ -262,7 +262,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                 chmod +x evil-droid
                 cd ..
                 echo ""
-                echo -e $red "########## Finish Download Evil-Droid ############"
+                echo -e $red "##########😃 Finish Download Evil-Droid 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
@@ -278,7 +278,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                 chmod +x trape.py
                 cd .. 
                 echo ""
-                echo -e $red "########## Finish Download trape ############"
+                echo -e $red "##########😃 Finish Download trape 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
@@ -294,7 +294,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                 chmod +x zirikatu.sh
                 cd ..
                 echo ""
-                echo -e $red "########## Finish Download zirikatu ############"
+                echo -e $red "##########😃 Finish Download zirikatu 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
@@ -310,7 +310,7 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                 chmod +x Cl0neMast3r.py
                 cd ..
                 echo ""
-                echo -e $red "########## Finish Download Cl0neMast3r ############"
+                echo -e $red "##########😃 Finish Download Cl0neMast3r 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
@@ -326,17 +326,34 @@ echo -e $okegreen"   ====================== Tool Lest =======================   
                 chmod +x fluxion.sh
                 cd ..
                 echo ""
-                echo -e $red "########## Finish Download fluxion ############"
+                echo -e $red "##########😃 Finish Download fluxion 😃############"
                 echo
                 echo -e $green "【!】Return To The Main Menu【!】"
                 read -p "pess any key to return ..."
                 clear
                 ;;
-            q)  echo -e $yellow " Thanks For Using My Tools Good Bye  {Aniket}  !!"
+           15)  echo "New_Vega"
+                echo -e $red "############## New_Vega ###################"
+                sleep 2
+                git clone https://github.com/hackingvila/New_Vega.git > /dev/null 2>&1
+                echo
+                echo -e $green "[ ✔ ] New_Vega Downloaded "
+                cd New_Vega
+                chmod 777 *.sh
+                ./v.sh
+                echo
+                echo -e $red "##########😃 Finish Download New_Vega 😃############"
+                echo
+                echo -e $green "【!】Return To The Main Menu【!】"
+                read -p "pess any key to return ..."
+                clear
+                ;;
+            q)  echo -e $yellow " Thanks For Using My Tools Good Bye  {Made by Aniket} "
                 echo
                 exit 0 
                 ;;
          clear) echo -e $red "Screen clear"
+                clear               
                 sleep 2
                 ;;
         esac
