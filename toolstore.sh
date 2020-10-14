@@ -1,7 +1,7 @@
 #!/bin/bash
 #  
 #             GitTool v1.0 
-#             GitTool Create By : Aniket          
+#             GitTool Create By : Aniket Dinda         
 #             GitHub : https://github.com/hackingvila/toolstore.git
 #             website : https://hackingvila.wordpress.com
 #             Automatic Donwload Tools
